@@ -1,5 +1,7 @@
-echo "rendering axle and connectors"
-"c:\Program Files\OpenSCAD\openscad.com" -o ../stl/axle_connectors.stl axle_connectors.scad
+echo "rendering axle"
+"c:\Program Files\OpenSCAD\openscad.com" -o ../stl/axle.stl axle.scad
+echo "rendering connectors"
+"c:\Program Files\OpenSCAD\openscad.com" -o ../stl/connectors.stl connectors.scad
 echo "rendering bottom bracket"
 "c:\Program Files\OpenSCAD\openscad.com" -o ../stl/bottom_bracket.stl bottom_bracket.scad
 echo "rendering bottom filament wheel mount"
@@ -19,7 +21,7 @@ echo "rendering thumb peg"
 echo "rendering top bracket"
 "c:\Program Files\OpenSCAD\openscad.com" -o ../stl/top_bracket.stl top_bracket.scad
 
-"c:\Program Files\Prusa3D\PrusaSlicer\prusa-slicer-console.exe" -m --export-3mf -o ../printable_3mf/wheel_assembly.3mf  ../stl/axle_connectors.stl  ../stl/filament_wheel_mount_top.stl  ../stl/filament_wheel_mount_bottom.stl
+"c:\Program Files\Prusa3D\PrusaSlicer\prusa-slicer-console.exe" -m --export-3mf -o ../printable_3mf/wheel_assembly.3mf  ../stl/axle.stl  ../stl/connectors.stl  ../stl/filament_wheel_mount_top.stl  ../stl/filament_wheel_mount_bottom.stl
 "c:\Program Files\Prusa3D\PrusaSlicer\prusa-slicer-console.exe" -m --export-3mf -o ../printable_3mf/brackets_pegs.3mf  ../stl/bottom_bracket.stl  ../stl/top_bracket.stl  ../stl/side_pegs.stl
 "c:\Program Files\Prusa3D\PrusaSlicer\prusa-slicer-console.exe" -m --export-3mf -o ../printable_3mf/sidewalls.3mf ../stl/sidewall.stl  ../stl/sidewall.stl
 "c:\Program Files\Prusa3D\PrusaSlicer\prusa-slicer-console.exe" --export-3mf -o ../printable_3mf/separator_wall.3mf ../stl/separator_wall.stl

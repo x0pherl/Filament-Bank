@@ -3,7 +3,8 @@ this is the top of the bracket that holds the wheel and
 festo mounts
 *****************************************************************************/
 include <filament_bank_values.scad>
-use <axle_connectors.scad>
+use <connectors.scad>
+use <axle.scad>
 include <festo.scad>
 include <wheelcut.scad>
 use <../lib/iso-threads.scad>

@@ -6,7 +6,8 @@ include <filament_bank_values.scad>
 use <../lib/iso-threads.scad>
 include <festo.scad>
 include <wheelcut.scad>
-use <axle_connectors.scad>
+use <axle.scad>
+use <connectors.scad>
 
 //for faster rendering, prevent rendering of threads
 //must be set to false for printed part
