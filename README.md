@@ -24,7 +24,7 @@ This project is licensed under the terms of the  [MIT license](LICENSE.txt).
 
 ## Step One: Printing Guide
 
-The first step is to print the peices required for the buffer chambers. You can start from scratch with the .stl files, or printable files for building this out of PLA exist both in pre-arranged .3mf files for PrusaSlicer or gcode files for direct printing from a Prusa i3 MK3S printer.
+The first step is to print the pieces required for the buffer chambers. You can start from scratch with the .stl files, or printable files for building this out of PLA exist both in pre-arranged .3mf files for PrusaSlicer or gcode files for direct printing from a Prusa i3 MK3S printer.
 
 ### Buffering chambers
 
@@ -36,7 +36,7 @@ I recommend printing this with transparent filament and minimal infill (download
 
 #### 1x top bracket
 
-This holds the tops of the separatator walls and sidewalls in place, holds the wheel assemblies in place, and has tabs for hanging the assembly on your printer stand.
+This holds the tops of the separator walls and sidewalls in place, holds the wheel assemblies in place, and has tabs for hanging the assembly on your printer stand.
 
 I recommend printing this with transparent filament and minimal infill (downloadable gcodes are 5% hexagonal infill). This model is included as part of `brackets_pegs.3mf` and its associated gcode file.
 
@@ -107,19 +107,20 @@ Many changes that you would like to make can be made by modifying `src/filament_
 ## Assembly
 
 YouTube videos of the assemby process are available:
+
 - [Part One - Filament Buffer Assembly](https://youtu.be/NMZ75zq5oWg)
 - [Part Two -- Wheel Bracket Assembly](https://youtu.be/zj1OsbUYNdQ)
 - [Part Three -- Final Assembly](https://youtu.be/MDklB2XTeAQ)
 
 ### Buffering Chamber Assembly
 
-Start with the bottom bracket. It may be helpful to use a utility knife to clean any printing artifacts out of the 6 slots along the bracket. Note that on the one side, next the round hole for the peg, there is a small notch. That side is the "deeper" section, and your seperator walls should be aligned to match.
+Start with the bottom bracket. It may be helpful to use a utility knife to clean any printing artifacts out of the 6 slots along the bracket. Note that on the one side, next the round hole for the peg, there is a small notch. That side is the "deeper" section, and your separator walls should be aligned to match.
 
-Slide each of the six seperator walls into the slots on the bottom bracket. With the notch on the right of the bottom bracket, slide in the two shorter pegs, then use a pair of pliers to give each peg a twist or two clockwise to lock the pegs in place.
+Slide each of the six separator walls into the slots on the bottom bracket. With the notch on the right of the bottom bracket, slide in the two shorter pegs, then use a pair of pliers to give each peg a twist or two clockwise to lock the pegs in place.
 
 Then carefully align one of the sidewalls with the separator walls, and slide it down into the bottom bracket until it is firmly in place. Repeat with the other side.
 
-Align the top bracket with the sidewall and seperator walls and slide into place. With the back bracket facing to the right, slide in the two longer pegs, then use a pair of pliers to give each peg a twist or two clockwise to lock the pegs in place.
+Align the top bracket with the sidewall and separator walls and slide into place. With the back bracket facing to the right, slide in the two longer pegs, then use a pair of pliers to give each peg a twist or two clockwise to lock the pegs in place.
 
 Congratulations, you've finished the buffering chambers! Why don't you reward yourself with some gummi bears :)
 
@@ -145,15 +146,15 @@ Repeat 4 more times and then reward yourself with some gummi bears.
 
 The top bracket of the buffering chamber has brackets for hanging. Using M3 screws, secure the buffering chamber to a wall or your print stand. Ideally, there should be a short line of travel from the MMU2s unit downward to the buffering chamber.
 
-Insert each of the wheel assemblies into the top bracket. Note that the back should be angled down as you insert them, so that the guide along the back lines up with the produsion along the back of the top bracket. Then drop the front of the wheel assembly down and secure it with one of the thumb pegs. If you printed the pegs and wheels in five different colors as suggested in the printing instructions, be sure to match them up.
+Insert each of the wheel assemblies into the top bracket. Note that the back should be angled down as you insert them, so that the guide along the back lines up with the protrusion along the back of the top bracket. Then drop the front of the wheel assembly down and secure it with one of the thumb pegs. If you printed the pegs and wheels in five different colors as suggested in the printing instructions, be sure to match them up.
 
-Finally insert ptfe tubing from the back of the wheel assemblies, and run that to your MMU2s unit; and run PTFE tubing from the front of the wheel assemblies to your filament stands.
+Finally insert PTFE tubing from the back of the wheel assemblies, and run that to your MMU2s unit; and run PTFE tubing from the front of the wheel assemblies to your filament stands.
 
 Now you're ready to print!
 
 ## Credit
 
-This is a filament buffering system designed for use with the Prusa MMU2s, but should be easily adaptable to suit similar requirements or MMU2S modifications adding additonal filaments.
+This is a filament buffering system designed for use with the Prusa MMU2s, but should be easily adaptable to suit similar requirements or MMU2S modifications adding additional filaments.
 
 The original inspiration for this comes from [David Shealey](https://www.thingiverse.com/TNDave/about)'s brilliant design for his [Prusa MMU2 Filament Retract Bank](https://www.thingiverse.com/thing:3373895). His concept of a simple wheel releasing filament into a channel was the first workable buffering system for the MMU2S, as far as I'm concerned. However, this design suffers from two flaws. First, the walls of the chambers were designed to be acrylic plastic -- which had the advantage of being clear, but required some knowlege of working with acrylic.
 
