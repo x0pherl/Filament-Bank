@@ -106,7 +106,10 @@ Many changes that you would like to make can be made by modifying `src/filament_
 
 ## Assembly
 
-Youtube videos of the assemby are available
+YouTube videos of the assemby process are available:
+- [Part One - Filament Buffer Assembly](https://youtu.be/NMZ75zq5oWg)
+- [Part Two -- Wheel Bracket Assembly](https://youtu.be/zj1OsbUYNdQ)
+- [Part Three -- Final Assembly](https://youtu.be/MDklB2XTeAQ)
 
 ### Buffering Chamber Assembly
 
