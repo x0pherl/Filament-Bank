@@ -94,7 +94,7 @@ This is the axle that will screw in place, holding the bearing and brackets in p
 
 The default 20% gyroid infill profile is fine here. This model is included as part of `wheel_assembly.3mf` and its associated gcode file.
 
-#### 10x filament wheel axle
+#### 10x filament wheel connector
 
 You'll need 10 connectors that hold the filament wheel mount brackets together.
 
