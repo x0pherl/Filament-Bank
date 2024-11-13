@@ -1,5 +1,9 @@
 # Yet Another Filament Bank
 
+
+> [!WARNING]
+> This project has been superseded by the [Fender-Bender](https://github.com/x0pherl/fender-bender) project, and is archived
+
 ## Why another Filament Buffering Solution?
 
 I wanted a solution that met the following requirements:
